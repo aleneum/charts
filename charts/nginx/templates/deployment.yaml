@@ -22,11 +22,11 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
-      volumeMounts:
-        - mountPath: /usr/share/nginx/html/index.html
-          name: mnt-index
-          subPath: index.html
-    volumes:
-      - name: mnt-index
-        configMap:
-          name: {{ .Release.Name }}-configmap
+        volumeMounts:
+          - mountPath: /usr/share/nginx/html/index.html
+            name: mnt-index
+            subPath: index.html
+      volumes:
+        - name: mnt-index
+          configMap:
+            name: {{ .Release.Name }}-configmap
