@@ -3,6 +3,19 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.24.0
+    created: "2023-04-22T13:15:25.766010736Z"
+    description: Just a nginx Helm Chart for testing purposes
+    digest: cd762450318e61f1d9765908ef9ffdc033dcc4ede97f9bf3681ecb8add1c7205
+    maintainers:
+    - email: aleneum@gmail.com
+      name: Alexander Neumann
+    name: nginx
+    type: application
+    urls:
+    - https://github.com/aleneum/charts/releases/download/nginx-0.1.5/nginx-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.24.0
     created: "2023-04-22T13:12:24.10131487Z"
     description: Just a nginx Helm Chart for testing purposes
     digest: 7c8607b416c328d32b642eeedd35553ac95780f4a4d88c901354123dcc80041b
@@ -66,4 +79,4 @@ entries:
     urls:
     - https://github.com/aleneum/charts/releases/download/nginx-0.1.0/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-22T13:12:24.10133707Z"
+generated: "2023-04-22T13:15:25.766038536Z"
