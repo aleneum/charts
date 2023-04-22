@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+
+service:
+  name: nginx-service
+  type: ClusterIP
+  port: 80
+  targetPort: 9000
+
+env:
+  name: dev
