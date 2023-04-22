@@ -3,7 +3,7 @@ name: nginx
 description: Just a nginx Helm Chart for testing purposes
 
 type: application
-version: 0.1.1
+version: 0.1.2
 appVersion: "1.24.0"
 
 maintainers:

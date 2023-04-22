@@ -7,6 +7,5 @@ data:
   index.html: |
     <html>
     <h1>Nginx deployed!</h1>
-    </br>
-    <h1>Nginx was deployed to {{ .Values.env.name }} via Helm Charts.</h1>
-    </html
+    <h2>Nginx was deployed to {{ .Values.env.name }} via Helm Charts.</h2>
+    </html>
